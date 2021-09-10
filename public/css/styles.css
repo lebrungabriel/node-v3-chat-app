@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: white;
 }
 
 html {
@@ -13,7 +12,6 @@ html {
 
 input {
     font-size: 14px;
-    color: black;   
 }
 
 body {
@@ -37,27 +35,25 @@ input {
     border: 1px solid #eeeeee;
     padding: 12px;
     outline: none;
-    border-radius: 5px;
 }
 
 button {
     cursor: pointer;
     padding: 12px;
-    background: #137CE5;
+    background: #7C5CBF;
     border: none;
     color: white;
     font-size: 16px;
-    transition: .3s ease;
-    border-radius: 5px;
+    transition: background .3s ease;
 }
 
 button:hover {
-    background: #3390ec;    
+    background: #6b47b8;
 }
 
 button:disabled {
     cursor: default;
-    background:
+    background: #7c5cbf94;
 }
 
 /* Join Page Styles */
@@ -96,8 +92,7 @@ button:disabled {
 .chat__sidebar {
     height: 100vh;
     color: white;
-    background: #1d1d1d;
-    border-right: 1px solid #2a88e6;
+    background: #333744;
     width: 225px;
     overflow-y: scroll
 }
@@ -109,8 +104,6 @@ button:disabled {
     display: flex;
     flex-direction: column;
     max-height: 100vh;
-    background-color: #151516;
-    /* background-color: #273741; */
 }
 
 .chat__messages {
@@ -122,14 +115,13 @@ button:disabled {
 /* Message Styles */
 
 .message {
-    margin-bottom: 30px;   
+    margin-bottom: 16px;   
 }
 
 .message__name {
     font-weight: 600;
     font-size: 14px;
     margin-right: 8px;
-    color: #afafaf;
 }
 
 .message__meta {
@@ -138,7 +130,7 @@ button:disabled {
 }
 
 .message a {
-    color: #0070CC; 
+    color: #0070CC;
 }
 
 /* Message Composition Styles */
@@ -173,7 +165,7 @@ button:disabled {
 .room-title {
     font-weight: 400;
     font-size: 22px;
-    background: #111111;
+    background: #2c2f3a;
     padding: 24px;   
 }
 
